@@ -3,13 +3,13 @@ vagrant-mongodb
 
 A Vagrant box with a running MongoDB server. The resulting Vagrant VM is provisioned with MongoDB using Chef Solo.
 
-# Pre-requisites
+### Pre-requisites
 
 1. Working git installed
 2. [Vagrant 1.5.4](http://www.vagrantup.com/downloads.html) or later installed
 3. [VirtualBox 4.3.12](https://www.virtualbox.org/wiki/Downloads) or later installed
 
-# Steps to have a working MongoDB Vagrant Box
+### Steps to have a working MongoDB Vagrant Box
 
 * Execute the following in the terminal where you want to have the Vagrant Folder created.
 
@@ -29,8 +29,7 @@ A Vagrant box with a running MongoDB server. The resulting Vagrant VM is provisi
 
    Else to access from the guest machine do the following
 
-   '''
+   ```
    vagrant ssh
    mongo 
-
-   '''
+   ```
