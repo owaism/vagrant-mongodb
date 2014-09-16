@@ -14,7 +14,7 @@ A Vagrant box with a running MongoDB server. The resulting Vagrant VM is provisi
 * Execute the following in the terminal where you want to have the Vagrant Folder created.
 
    ```
-   git clone --recursive https://github.com/equa-monde/vagrant-mongodb.git mongodb
+   git clone --recursive https://github.com/owaism/vagrant-mongodb.git mongodb
    cd mongobdb
    vagrant up
    ```
